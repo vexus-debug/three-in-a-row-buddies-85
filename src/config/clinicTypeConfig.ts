@@ -5,7 +5,7 @@ import {
   FileCheck, FolderOpen, Eye, Heart, Baby, Bone, Ear, Wallet, FileText,
   PiggyBank, TrendingUp, Calculator, Clock, CalendarClock, Truck,
    ShoppingCart, Link2, LineChart, Globe,
-  ScanLine, Pill, FileSearch, Glasses, Contact, Activity, Scissors,
+  ScanLine, Pill, FileSearch, Glasses, Contact, Activity, Scissors, Cpu,
 } from "lucide-react";
 
 export interface NavItem {
@@ -295,6 +295,7 @@ const dentalLabNav: NavGroup[] = [
     { title: "Case Board", path: "dlab/cases", icon: ClipboardList },
     { title: "Calendar", path: "dlab/calendar", icon: CalendarDays },
     { title: "My Bench", path: "dlab/bench", icon: Wrench },
+    { title: "CAD/CAM & Equipment", path: "dlab/cam", icon: Cpu },
     { title: "QC Station", path: "dlab/r/qc", icon: FileCheck },
   ] },
   { label: "Catalogue & Store", items: [

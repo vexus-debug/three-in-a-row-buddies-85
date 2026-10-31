@@ -143,6 +143,7 @@ export const DENTAL_LAB_HUBS: HubDomain[] = [
     tabs: [
       { title: "Case Board", path: "dlab/cases" },
       { title: "My Bench", path: "dlab/bench" },
+      { title: "CAD/CAM", path: "dlab/cam" },
       { title: "Calendar", path: "dlab/calendar" },
       { title: "Quality Control", path: "dlab/r/qc" },
       { title: "Remakes & Warranties", path: "dlab/r/warranties" },
