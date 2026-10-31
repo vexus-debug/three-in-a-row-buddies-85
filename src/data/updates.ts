@@ -13,6 +13,18 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    version: "v2.37.0",
+    date: "October 31, 2026",
+    title: "Dental lab CAD/CAM & equipment queues",
+    kind: "feature",
+    items: [
+      { kind: "feature", text: "New CAD/CAM & Equipment page: check incoming scans and mark them verified, margin question, missing bite or rescan." },
+      { kind: "feature", text: "Any scan problem puts the case on clinical hold automatically, pausing its due-date clock." },
+      { kind: "feature", text: "Batch cases onto milling discs, sintering cycles and 3D print platforms with a capacity meter and the material lot used." },
+      { kind: "feature", text: "Speed sintering warns about bridges of 3+ units and mixed sintering curves; runs go staged, running, then completed or failed." },
+    ],
+  },
+  {
     version: "v2.36.0",
     date: "October 31, 2026",
     title: "Dental lab Material Store with reorder alerts",
